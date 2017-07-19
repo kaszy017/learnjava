@@ -1,5 +1,6 @@
 package test;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Map;
 import java.util.Properties;
@@ -9,7 +10,7 @@ import java.util.Properties;
  */
 public class testSystem {
     public static void main(String[] args) {
-        //获取系统的所有环境变量
+        //获取系统的所有环境变量 获取，不是创建
         Map<String,String> env = System.getenv();
         System.out.println("系统的所有环境变量:" + "\n");
         for(String name : env.keySet()){
@@ -20,8 +21,9 @@ public class testSystem {
         //获取所有的系统属性
         Properties props = System.getProperties();
         //将所有系统属性保存到props.txt文件中
-        //TODO 还是路径问题
-        //props.store(new FileOutputStream("props.txt"),"System Properties");
+        // TODO: 2017/7/20   路径问题还是不会。。
+        //File f = new File("d:\\1.txt");
+        //props.store(new FileOutputStream("1.txt"), "System Properties");
         //输出特定的系统属性
         System.out.println("特定的系统属性:" + "\n" + System.getProperty("os.name"));
 
