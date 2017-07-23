@@ -27,7 +27,7 @@ public class AnnotationTestSecond {
         mainWin.pack();
         mainWin.setVisible(true);
     }
-
+    //若出现Abnormal build process termination问题就重启，然后就好了。。。
     public static void main(String[] args) {
         new AnnotationTestSecond().init();
     }
