@@ -1,4 +1,4 @@
-package test.File;
+package test.file;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FileInputStreamTest {
     public static void main(String[] args) throws IOException{
         //创建字节输入流,读取本文件
-        FileInputStream fis = new FileInputStream("D:\\gitrepo\\learnjava\\src\\main\\java\\test\\File\\FileInputStreamTest.java");
+        FileInputStream fis = new FileInputStream("D:\\gitrepo\\learnjava\\src\\main\\java\\test\\file\\FileInputStreamTest.java");
         //创建一个长度为1024的竹筒
         byte[] bbuf = new byte[1024];
         //用于保存实际读取的字节数；

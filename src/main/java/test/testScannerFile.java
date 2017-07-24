@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class testScannerFile {
     public static void main(String[] args) {
         //路径问题没解决，暂时搁置
-        // Scanner sc = new Scanner(new File("src/main/java/test/testMain.java"));
+        // Scanner sc = new Scanner(new file("src/main/java/test/testMain.java"));
         //while (sc.hasNextLine()){
           //  System.out.println(sc.nextLine());
 

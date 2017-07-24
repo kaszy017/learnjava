@@ -1,4 +1,4 @@
-package test.File;
+package test.file;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class FileReaderTest {
     public static void main(String[] args) throws IOException{
         try {
             //创建字符输入流
-            FileReader fr = new FileReader(TESTURL +"File\\FileReaderTest.java");
+            FileReader fr = new FileReader(TESTURL +"file\\FileReaderTest.java");
             //创建一个长度为32的竹筒
             char[] cbuf = new char[32];
             //用于保存实际读取的字节数；

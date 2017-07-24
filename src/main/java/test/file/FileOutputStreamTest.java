@@ -1,4 +1,4 @@
-package test.File;
+package test.file;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -14,7 +14,7 @@ public class FileOutputStreamTest {
     public static void main(String[] args) {
         try {
             //创建字节输入流
-            FileInputStream fis = new FileInputStream(JAVAURL +"test\\File\\"
+            FileInputStream fis = new FileInputStream(JAVAURL +"test\\file\\"
                 + "FileOutputStreamTest.java");
             //创建字节输出流
             FileOutputStream fos = new FileOutputStream(OUTPUTURL + "outputfile1.txt");

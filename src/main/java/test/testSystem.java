@@ -22,7 +22,7 @@ public class testSystem {
         Properties props = System.getProperties();
         //将所有系统属性保存到props.txt文件中
         // TODO: 2017/7/20   路径问题还是不会。。
-        //File f = new File("d:\\1.txt");
+        //file f = new file("d:\\1.txt");
         //props.store(new FileOutputStream("1.txt"), "System Properties");
         //输出特定的系统属性
         System.out.println("特定的系统属性:" + "\n" + System.getProperty("os.name"));

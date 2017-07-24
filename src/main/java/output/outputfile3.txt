@@ -1,2 +1,2 @@
 普通字符串
-test.File.PrintStreamTest@140e19d
+test.file.PrintStreamTest@140e19d
