@@ -1,4 +1,4 @@
-package test.annotation3;
+package test.annotation03;
 
 /**
  * Created by kaszy on 2017-07-23 21:05.
